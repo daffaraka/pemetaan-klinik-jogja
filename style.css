@@ -1,0 +1,46 @@
+.leaflet-container {
+    height: 400px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+body {
+    background-size: 100vh;
+    background-image: url('images/bg.png');
+    min-height: 80vh;
+   
+}
+
+.container {
+    min-height: 70vh;
+}
+
+
+footer {
+    margin-top: 20vh;
+}
+
+.btn {
+    padding: 8px 4px;
+}
+
+.card-img-top{
+    height: 50vh;
+    object-fit: cover;
+}
+
+.bg-blue {
+    background-color: #065099;
+}
+
+.carousel-item img{
+    height: 400px;
+    object-fit: contain;
+
+}
+
+.text-blue {
+    color: #065099;
+}
