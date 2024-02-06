@@ -45,8 +45,27 @@
 
         
         <footer>
-            <div class="bg-dark text-center text-light py-4">
-                - Rahma Harun A 117200009 Teknik Geomatika -
+            <div class="bg-dark bg-gradient text-center text-light py-4 px-3">
+
+                <div class="d-flex justify-content-center gap-3 mb-3" >
+                    <div class="pt-5">
+                        <img src="images/Logo geomatika.png" class="img-thumbnail bg-secondary border-0" style="max-width: 10vw;" alt="">
+
+
+                    </div>
+                    <div class="">
+                        <img src="images/LOGO UPN.png" alt="" class="img-thumbnail bg-transparent border-0"style="max-width: 10vw;" >
+                    </div>
+                </div>
+
+                <hr>
+                <h5> 
+                    - Rahma Harun A 117200009 Teknik Geomatika - <br> </h5>
+                    Program Studi Teknik Geomatika <br>
+                    Fakultas Teknologi Mineral <br>
+                    Universitas Pembangunan Nasional "Veteran" Yogyakarta
+
+                
             </div>
         </footer>
 
@@ -78,7 +97,7 @@
         <script src="assets/js/script.js"></script>
 
         <script>
-            const map = L.map('map').setView([-7.775016, 110.410581], 15);
+            const map = L.map('map').setView([-7.7829218,110.3622048], 17);
             L.control.locate().addTo(map);
         
             const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -93,11 +112,16 @@
                 { nama: 'Joy Dental Godean', koordinat: [-7.7816202, 110.3489824], link: 'klinik_joy_dental_godean.html' },
                 { nama: 'Joy Dental Aesthetic Center Demangan', koordinat: [-7.7805272, 110.3899397], link: 'klinik_joy_dental_demangan.html' },
                 { nama: 'Dentes Godean', koordinat: [-7.7799433, 110.3412477] , link: 'klinik_dentes.html'},
-                { nama: 'RS Siloam', koordinat: [-7.3904412, 110.0827557] , link: 'klinik_siloam.html'},
+                { nama: 'RS Siloam', koordinat: [-7.7834264,110.3883033] , link: 'klinik_siloam.html'},
                 { nama: 'Rumah Sakit PKU Muhammadiyah Yogyakarta', koordinat: [-7.8007457, 110.3594951] , link: 'klinik_pku.html'},
                 { nama: 'Kusuma Dental Kotabaru', koordinat: [-7.7852306, 110.3705491] , link: 'klinik_kusuma_dental_kotabaru.html'},
-                { nama: 'Prima Medika', koordinat: [-7.7852039, 110.3628242] , link: 'klinik_prima.html'},
-                { nama: "Klinik D'Smile", koordinat: [-7.7930808, 110.3764502] , link: 'klinik_dsmile.html'}
+                { nama: 'Prima Medika Tamsis', koordinat: [-7.8079824,110.3747684] , link: 'klinik_prima.html'},
+                { nama: "Klinik D'Smile", koordinat: [-7.7930808, 110.3764502] , link: 'klinik_dsmile.html'},
+                { nama: 'Dentes Parangtritis', koordinat: [-7.8211708,110.365548] , link: 'klinik_dentes_parangtritis.html'},
+                { nama: 'Prima Medika Sagan', koordinat: [-7.7798915,110.3767474] , link: 'klinik_prima_medika_sagan.html'},
+                { nama: 'Prima Medika Terban', koordinat: [-7.7785907,110.3708688] , link: 'klinik_prima_medika_terban.html'},
+                { nama: "FDC Dental Clinic", koordinat: [-7.7830057,110.361511] , link: 'klinik_fdc.html'}
+
             ];
         
             // Menambahkan marker untuk setiap klinik
